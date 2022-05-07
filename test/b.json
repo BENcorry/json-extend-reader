@@ -1,0 +1,8 @@
+{
+  "id": "34",
+  "value": "corry",
+  "size": 100,
+  "file": {
+    "extend": "./a.json"
+  }
+}
