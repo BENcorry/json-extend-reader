@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { StringObject } from "..";
+import { StringObject } from "../index";
 
 export function jsonExtendReader(
   filePath: string,
@@ -44,5 +44,4 @@ export function jsonExtendReader(
     };
   }
   return parseText;
-};
-
+}

@@ -1,6 +1,6 @@
 {
   "name": "json-extend-reader",
-  "version": "1.0.1-beta2",
+  "version": "1.0.1-beta4",
   "description": "json file can extend another json",
   "main": "lib/index.js",
   "types": "index.d.ts",
