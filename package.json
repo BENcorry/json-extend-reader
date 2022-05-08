@@ -1,7 +1,7 @@
 {
   "name": "json-extend-reader",
   "version": "1.0.1-beta4",
-  "description": "json file can extend another json",
+  "description": "Can be a keyword extend to inherit other json",
   "main": "lib/index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -23,7 +23,7 @@
   "keywords": [
     "json",
     "extend",
-    "json key extend"
+    "json extend"
   ],
   "author": "Corry Wen",
   "license": "MIT",

@@ -9,7 +9,9 @@ npm i json-extend-reader
 ## Code
 
 ```js
-import jsonExtendReader from "json-extend-reader";
+import { jsonExtendReader } from "json-extend-reader";
+// common
+const { jsonExtendReader } = requie('json-extend-reader')
 
 const res = jsonExtendReader(path.join(__dirname, "a.json"));
 ```
@@ -31,7 +33,7 @@ const res = jsonExtendReader(path.join(__dirname, "a.json"));
   }
 }
 
-// return
+// res will return
 {
   "id": "33",
   "value": "corry",
@@ -44,9 +46,9 @@ const res = jsonExtendReader(path.join(__dirname, "a.json"));
 
 **extend** key must be in top-level, otherwise, it is invalid to load anther json file
 
-### Extend
+### Extend Type: string | string[]
 
-extend allow to use type of string or string array
+extend allow to use type of **string** or **string array**
 
 ```json
 {
