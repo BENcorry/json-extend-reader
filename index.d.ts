@@ -1,6 +1,6 @@
-declare type StringObject = Record<string, any>;
+export declare type StringObject = Record<string, any>;
 
-declare function ReadJSONFileAllowExtend(
+export declare function jsonExtendReader(
   filePath: string,
   map: Record<string, string>
 ): StringObject;

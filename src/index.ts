@@ -1,10 +1,11 @@
 import fs from "fs";
 import path from "path";
+import { StringObject } from "..";
 
-const jsonExtendReader = (
+export function jsonExtendReader(
   filePath: string,
   map?: Record<string, string>
-): StringObject => {
+): StringObject {
   // current path is absolute
   if (!path.isAbsolute(filePath)) {
     throw new Error(`Can not find file: ${filePath}`);
@@ -45,4 +46,3 @@ const jsonExtendReader = (
   return parseText;
 };
 
-export default jsonExtendReader;
